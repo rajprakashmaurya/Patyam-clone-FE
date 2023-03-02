@@ -55,6 +55,9 @@ body {
 .hero-left {
   margin: 30px;
 }
+.hero-left > span {
+  cursor: pointer;
+}
 .hero-img {
   height: 90px;
 }
@@ -186,8 +189,6 @@ body {
   width: 45wh;
   background-color: white;
   border-radius: 20px;
-
-  /* padding-top: 50px; */
   padding-left: 30px;
 }
 .card > h1 {
@@ -213,8 +214,8 @@ body {
   margin-bottom: 30px;
   padding-top: 55px;
 }
-/* ==========middle container==================
- */
+/* ==========middle container================== */
+
 .container2 {
   background-color: white;
   padding: 50px;
@@ -326,9 +327,6 @@ body {
 .crousal-card-sub1 > img {
   height: 70px;
   padding-bottom: 15px;
-}
-.crousal-card-sub1 > p {
-  font-size: ;
 }
 /* ===========Footer=============== */
 .footer-left {
